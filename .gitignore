@@ -1,2 +1,4 @@
 mirror/
 media/
+config.bat
+node_modules

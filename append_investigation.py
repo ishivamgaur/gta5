@@ -1,4 +1,6 @@
 """Append newly created evidence to the existing portable ZIP, then refresh SHA256."""
+import utils.transport
+import utils.session
 import hashlib, json, time, zipfile
 from pathlib import Path
 
